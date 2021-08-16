@@ -1,9 +1,8 @@
-console.log("script is working from different file");
+var btnTranslate = document.querySelector("#btn-translate");
+var txtInput = document.querySelector("#txt-input");
+var outputDiv = document.querySelector("#output");
 
-// input
-var username = prompt("tell me your name")
-// processing
-var welcomeMessage = "Hii " + username;
-
-// output
-alert(welcomeMessage);
+function clickHandler(){
+    outputDiv.innerText = "ajaajajaajaa " + txtInput.value
+};
+btnTranslate.addEventListener("click", clickHandler)
