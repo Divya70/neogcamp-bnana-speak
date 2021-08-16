@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=EB+Garamond:ital@1&display=swap');
+body{
+    font-family: 'Balsamiq Sans', cursive;
+   margin: 0%;  
+}
+h1{
+    text-align: center;
+    padding: 2rem;
+    font-weight: bold;
+    background-color: #45B39D;
+    display: block;
+    box-sizing: border-box;
+    margin: auto;
+}
+#container{
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+}
+
+textarea{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 15vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 1rem;
+}
+button{
+   
+    background-color:#45B39D ;
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+    cursor: pointer;
+    
+}
+#output{
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 15vh;
+    max-height: 20vh;
+    border: 1px solid black;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: large;
+}  
+.footer{
+    /* position: fixed; */
+    bottom: 0;
+    height: 23vh;
+    width: 100%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: #45B39D ;
+    text-align: center;
+    /* margin:auto; */
+    margin-top: 90px;
+    
+}
+.footer p{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
